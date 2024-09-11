@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> FOODY.COM </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <!-- MOBILE NAV -->
+    <div class="mb-nav">
+        <div class="mb-move-item"></div>
+        <div class="mb-nav-item active">
+            <a href="#home">  
+                <i class="bx bxs-home"></i>
+             
+
+        </a>
+            
+        
+</div>
+        <div class="mb-nav-item">
+            <a href="#about">
+                <i class='bx bxs-wink-smile'></i>
+            </a>
+        </div>
+        <div class="mb-nav-item">
+            <a href="#food-menu-section">
+                <i class='bx bxs-food-menu'></i>
+            
+            </a>
+        </div>
+        <div class="mb-nav-item">
+            <a href="#testimonial">
+                <i class='bx bxs-comment-detail'></i>
+            </a>
+        </div>
+    </div>
+    <!-- END MOBILE NAV -->
+    <!-- BACK TO TOP BTN -->
+    <a href="#home" class="back-to-top">
+        <i class="bx bxs-to-top text-4xl"></i>
+    </a>
+    <!-- END BACK TO TOP BTN -->
+    <!-- TOP NAVIGATION -->
+    <div class="nav">
+        <div class="menu-wrap">
+            <a href="#home">
+                <div class="logo text-2xl lg:text-4xl lg:ml-[-100px]">
+                    Online Orderd food's
+                </div>
+            </a>
+            <div class="menu h-xs">
+                <a href="#home">
+                    <div class="menu-item active">
+                        Home
+                    </div>
+                </a>
+                <a href="#about">
+                    <div class="menu-item">
+                        About
+                    </div>
+                </a>
+                <a href="#food-menu-section">
+                    <div class="menu-item">
+                        Menu
+                    </div>
+                </a>
+                <a href="#testimonial">
+                    <div class="menu-item">
+                        Rate us
+                    </div>
+                </a>
+            </div>
+            <div class="right-menu">
+                <div class="cart-btn lg:ml-[50px]">
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END TOP NAVIGATION -->
+    <!-- SECTION HOME -->
+    <section id="home" class="fullheight align-items-center bg-img bg-img-fixed"
+        style="background-image: url(img/21-image-transformed.avif);background-size:cover; background-position:left;">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-xs-12">
+                    <div class="slogan">
+                        <h1 class="left-to-right play-on-scroll font-sans font-[600]">
+                            Food's.Com
+                        </h1>
+                        <p class="left-to-right play-on-scroll delay-2 text-white font-sans text-[16px]">
+                            Welcome to Flavor Fantasy, your ultimate destination for extraordinary taste experiences!
+                             Dive into a world where every meal is a masterpiece and every recipe is crafted to perfection. 
+                             Delicious and flavorful dishes await! Discover mouthwatering recipes and taste the best of every bite.
+                             Join us and elevate your eating experience to a whole new level of delicious!
+                        </p>
+                        <div class="left-to-right play-on-scroll delay-4">
+                            <button class="font-[arial] text-xl">
+                                Order now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END SECTION HOME -->
+    <!-- SECION ABOUT -->
+    <section class="about fullheight align-items-center bg-black" id="about"><!--change-1-->
+        <div class="container ">
+            <div class="row">
+                <div class="col-7 h-xs">
+                    <img src="assets/dan-gold-4_jhDO54BYg-unsplash.jpg" alt=""
+                        class="fullwidth left-to-right play-on-scroll">
+                </div>
+                <div class="col-5 col-xs-12 align-items-center">
+                    <div class="about-slogan right-to-left play-on-scroll">
+                        <h3>
+                            <span class="primary-color">We</span> create <span class="text-[orange]">delicious</span>
+                            memories for <span class="primary-color">you</span>
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio natus placeat et eos,
+                            dignissimos voluptatem tempora necessitatibus doloribus! Eum qui doloribus odio dolor
+                            tenetur nihil impedit vero magni, distinctio soluta!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END SECION ABOUT -->
+    <!-- FOOD MENU SECTION -->
+    <section class="align-items-center bg-img bg-img-fixed" id="food-menu-section"
+        style="background-image: url(assets/katherine-chase-4MMK78S7eyk-unsplash.jpg);">
+        <div class="container">
+            <div class="food-menu bg-black"><!--second-change-->
+                <h1 class="font-[arial] text-[white] lg:text-3xl">
+                    What will <span class="primary-color">you</span> eat today?
+                </h1>
+                <p class="text-[grey]">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque alias aliquam eveniet, iure
+                    praesentium dicta ex dolorum inventore itaque minus repudiandae, odio provident? Velit architecto
+                    natus expedita non? Odio, dolorum.
+                </p>
+                <div class="food-category lg:justify-center">
+                    <div class="zoom play-on-scroll">
+                        <button class="active" data-food-type="all">
+                            All food
+                        </button>
+                    </div>
+                    <div class="zoom play-on-scroll delay-2">
+                        <button data-food-type="salad">
+                            Salad
+                        </button>
+                    </div>
+                    <div class="zoom play-on-scroll delay-4">
+                        <button data-food-type="lorem">
+                            Lorem
+                        </button>
+                    </div>
+                    <div class="zoom play-on-scroll delay-6">
+                        <button data-food-type="ipsum">
+                            Ipsum
+                        </button>
+                    </div>
+                    <div class="zoom play-on-scroll delay-8">
+                        <button data-food-type="dolor">
+                            Dolor
+                        </button>
+                    </div>
+                </div>
+
+                <div class="food-item-wrap all">
+                    <div class="food-item salad-type">
+                        <div class="item-wrap bottom-up play-on-scroll ">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"
+                                    style="background-image: url(assets/anh-nguyen-kcA-c3f_3FE-unsplash.jpg);"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3 class="font-[500]" >
+                                     Morning Healthy died.
+                                    </h3>
+                                    <span class="text-2xl font-[arial] font-bold">
+                                        120$
+                                    </span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class="bx bx-cart-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-item lorem-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"
+                                    style="background-image: url('assets/sina-piryae-bBzjWthTqb8-unsplash.jpg');"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3 class="font-[500]">
+                                        Vegetarian cheese
+                                    </h3>
+                                    <span class="text-2xl font-[arial] font-bold">
+                                        190$
+                                    </span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bx-cart-alt'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-item ipsum-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"
+                                    style="background-image: url('assets/jonathan-farber-OCNqOLeCwOc-unsplash.jpg');">
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3 class="font-[500]">
+                                        Vegetabel,s pea
+                                    </h3>
+                                    <span class="text-2xl font-[arial] font-bold">
+                                        150$
+                                    </span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bx-cart-alt'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-item lorem-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"
+                                    style="background-image: url('assets/sina-piryae-bBzjWthTqb8-unsplash.jpg');"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3 class="font-[500]">
+                                        Healthy cheese 
+                                    </h3>
+                                    <span class="text-2xl font-[arial] font-bold">
+                                        180$
+                                    </span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bx-cart-alt'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-item dolor-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"
+                                    style="background-image: url('assets/carly-jayne-Lv174o7fn7Y-unsplash.jpg');"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3 class="font-[500]">
+                                        Iron vitamin vegetabels
+                                    </h3>
+                                    <span class="text-2xl font-[arial] font-bold">
+                                        170$
+                                    </span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bx-cart-alt'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-item salad-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"
+                                    style="background-image: url('assets/anh-nguyen-kcA-c3f_3FE-unsplash.jpg');"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3 class="font-[500]">
+                                        Salad vegetabels
+                                    </h3>
+                                    <span class="text-2xl font-[arial] font-bold">
+                                        90$
+                                    </span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bx-cart-alt'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-item lorem-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"
+                                    style="background-image: url('assets/sina-piryae-bBzjWthTqb8-unsplash.jpg');"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3 class="font-[500]">
+                                        Pizza loaded with cheese
+                                    </h3>
+                                    <span class="text-2xl font-[arial] font-bold">
+                                        120$
+                                    </span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bx-cart-alt'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-item dolor-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"
+                                    style="background-image: url('assets/carly-jayne-Lv174o7fn7Y-unsplash.jpg');"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3 class="font-[500]">
+                                        Nutritant Food
+                                    </h3>
+                                    <span class="text-2xl font-[arial] font-bold">
+                                        60$
+                                    </span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bx-cart-alt'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END FOOD MENU SECTION -->
+    <!-- TESTIMONIAL SECTION -->
+    <section id="testimonial" class="bg-black rounded-t-lg border-custom>
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-xs-12">
+                    <div class="review-wrap zoom play-on-scroll delay-2">
+                        <div class="review-content">
+                            <p class=" text-[15px] font-[500] lg:text-[17px]">
+                                Absolutely impressed with this food
+                                 delivery website! The user interface is intuitive and easy to navigate, making ordering a breeze.
+                                  Delivery was prompt, and the food quality exceeded my expectations. A great experience overall 
+                                  with a wide range of delicious options. Highly recommend it to anyone looking for reliable and 
+                                  tasty food delivery!"o.
+                            </p>
+                            <div class="review-img bg-img"
+                                style="background-image: url(assets/close-up-portrait-cute-young-woman-holding-textbook-colored-pencils-posing-studio-isolated-pink_176532-9674.jpg);">
+                            </div>
+                        </div>
+                        <div class="review-info">
+                            <h3 class="text-xl">
+                                Lorry from Canada
+                            </h3>
+                            <div class="rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <div class="zoom play-on-scroll">
+                        <div class="review-wrap active">
+                            <div class="review-content">
+                                <p class=" text-[15px] font-[500] lg:text-[17px]">
+                                    Our website is dedicated to bringing you the most delectable and flavorful dishes from around the world.
+                                     Whether you're a gourmet chef or a home cook, you'll find mouthwatering recipes, expert tips,
+                                      and culinary inspiration that will elevate your cooking. 
+                                    From savory starters to indulgent desserts, we have something to satisfy every palate.
+                                    Taste the magic today!
+                                </p>
+                                <div class="review-img bg-img"
+                                    style="background-image: url(assets/michael-dam-mEZ3PoFGs_k-unsplash.jpg);">
+                                </div>
+                            </div>
+                            <div class="review-info">
+                                <h3 class="text-xl">
+                                    Angel From USA
+                                </h3>
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <div class="review-wrap zoom play-on-scroll delay-4">
+                        <div class="review-content">
+                            <p class=" text-[15px] font-[500] lg:text-[17px]">
+                                Welcome to Flavor Fantasy, your ultimate destination for extraordinary taste experiences!
+                                 Dive into a world where every meal is a masterpiece and every recipe is crafted to perfection.
+                                  Our website offers a dazzling array of gourmet dishes, from sumptuous starters to decadent desserts, 
+                                all designed to tantalize your taste buds and inspire your culinary creativity.
+                            </p>
+                            <div class="review-img bg-img"
+                                style="background-image: url(assets/portrait-happy-young-man_171337-21716.jpg);">
+                            </div>
+                        </div>
+                        <div class="review-info">
+                            <h3 class="text-xl">
+                                Aman from london
+                            </h3>
+                            <div class="rating">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END TESTIMONIAL SECTION -->
+    <!-- FOOTER SECTION -->
+    <section class="footer bg-img" style="background-image: url(assets/nordwood-themes-pYWrdKO5ksI-unsplash.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-xs-12">
+                    <h1 class="font-[arial]">
+                        Fresh food's
+                    </h1>
+                    <br>
+                    <p class="text-xl">Discover secret ingredients, innovative cooking techniques, and mouthwatering flavors
+                         that will transform your everyday meals into spectacular feasts. Whether you're ordering 
+                         a dish to enjoy at home or seeking new ideas to wow your guests,
+                         Join us and elevate your eating experience to a whole new level of delicious!</p>
+                    <br>
+                    <p class="text-xl text-yellow-600 lg:text-white lg:text-[30px] lg:font-[500] lg:mt-[200px] lg:leading-10    ">Email :  onlinefoods@gmail.com</p>
+                    <p class="text-xl text-yellow-600  lg:text-white lg:text-[30px] lg:font-[500] lg:leading-10">Phone :+919005440117 ,</p>
+                    <p class="text-xl text-yellow-600  lg:text-white lg:text-[30px] lg:font-[500] lg:leading-10">Website : online foods.com</p>
+                </div>
+                <div class="col-2 col-xs-12">
+                    <h1 class="font-[arial] pl-1">
+                        About us
+                    </h1>
+                    <br>
+                    <p>
+                        <a href="#" class="text-[20px] text-blue-500 font-[500] pl-1">
+                            Orderd
+                        </a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-[20px] text-blue-500 font-[500] pl-1">
+                            Menu
+                        </a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-[20px] text-blue-500 font-[500] pl-1">
+                            Testimonials
+                        </a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-[20px] text-blue-500 font-[500] pl-1">
+                            Vegetarian
+                        </a>
+                    </p>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <h1 class="font-[arial]">
+                        Subscribe & media
+                    </h1>
+                    <br>
+                    <p class="text-[17px] font-[400] text-white-900">Experience culinary excellence with Taste Haven! Subscribe today for exclusive 
+                        access to gourmet recipes, expert cooking tips, and tantalizing food stories.
+                         Our vibrant community shares the joy of exceptional
+                         dishes and provides real-time ratings to guide your culinary journey.
+                         Subscribe now and transform your kitchen into a haven of taste and creativity!</p>
+                    <div class="input-group bg-black">
+                        <input type="text" placeholder="Enter your email" class="text-2xl">
+                        <button>
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END FOOTER SECTION -->
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
